@@ -1,0 +1,109 @@
+body {
+	background-color: #30692c;
+	font-family: Courier, 'Sans Serif';
+}
+
+header {
+	color: #bb0000;
+	padding-top: 10px;
+}
+
+#page {
+	background-color: white;
+	width: 800px;
+	margin: auto;
+	min-height: 1000px
+}
+
+#content {
+	margin: 100px 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+}
+
+span.score {
+	font-size: 2em;
+}
+
+#dealer-area {
+	height: 300px;
+	border: #62619e solid 2px;
+	margin: 50px 0;
+	color: #62619e;
+}
+
+#user-area {
+	height: 300px;
+	border: #3c8c36 solid 2px;
+	margin: 50px 0;
+	color: #3c8c36;
+}
+
+/*OUTPUT RECTANGLE*/
+.output {
+	border: grey solid 1px;
+	margin: 20px;
+	height: 100px;
+}
+
+/*SINGLE CARDS*/
+.output div {
+	margin: 28px 10px;
+	font-size: 2em;
+	display: inline-block;
+	background-color: #e8e8e8;
+}
+
+button {
+	margin: 10px 20px;
+	padding: 15px;
+	font-size: 1.0em;
+	background-color: #bb0000;
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 2px;
+}
+
+button:hover {
+	background-color: #3c8c36;
+}
+
+button#try-again {
+	background-color: #bb0000;
+}
+
+button#try-again:hover {
+	background-color: #3c8c36;
+}
+
+#dealer-area .message p, p.blackjack, p.stand {
+	font-size: 2em;
+	color: white;
+	font-weight: bold;
+	width: 300px;
+	margin: auto;
+}
+
+/*DEFEAT IS RED*/
+#dealer-area .message p.lose {
+	background-color: #62619e;
+}
+
+/*VICTORY IS GREEN*/
+#dealer-area .message p.win {
+	background-color: #3c8c36;
+}
+
+/*BLACKJACK AND STAND TEXTS ARE GREEN*/
+p.blackjack, p.stand {
+	background-color: #3c8c36;
+}
